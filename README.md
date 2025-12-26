@@ -39,6 +39,11 @@ A comprehensive Next.js application for tracking and managing student support ti
 - 💾 **Local data persistence** with automatic saving
 - 🔍 **Expandable chat interface** for better readability of long AI responses
 
+### Next Steps: Prompt and Context Engineering
+As other examples, this app is functional, but raw. Next steps include:
+- Engineering context, e.g., by giving the assistant access to a school’s policies, systems of support, and approach to discipline
+- Engineering prompts, e.g., to follow a school’s restorative approach
+
 ## Tech Stack
 
 - **Framework:** Next.js 16.1.1 with App Router
