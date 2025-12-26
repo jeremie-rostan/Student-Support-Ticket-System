@@ -27,7 +27,7 @@ A comprehensive Next.js application for tracking and managing student support ti
 - 🔍 **Quick action buttons** for common queries
 
 ### Voice & Transcription
-- 🎙️ **Voice recording** with Whisper AI transcription
+- 🎙️ **Voice recording** with browser-based speech recognition
 - 🗣️ **AssemblyAI integration** for speaker diarization
 - 📋 **Automatic summarization** of recorded conversations
 - 🎤 **Multiple transcription sources** (browser-based and cloud-based)
@@ -47,7 +47,7 @@ A comprehensive Next.js application for tracking and managing student support ti
 - **Styling:** Tailwind CSS
 - **Components:** shadcn/ui
 - **AI/ML:**
-  - Whisper AI (browser-based speech-to-text)
+  - Web Speech API (browser-based speech-to-text)
   - AssemblyAI (cloud transcription with speaker detection)
   - LM Studio (local LLM integration)
 - **Utilities:**
@@ -122,7 +122,7 @@ For advanced transcription with speaker diarization:
    - **Voice Note:** Record and automatically transcribe
 4. Notes support:
    - Manual text entry
-   - Browser-based voice recording (Whisper)
+   - Browser-based voice recording (Web Speech API)
    - AssemblyAI transcription with speaker detection
 
 ### Using the AI Assistant
@@ -169,7 +169,7 @@ student-incidents/
 ├── contexts/             # React contexts
 │   └── IncidentsContext.tsx # Global state management
 ├── hooks/                # Custom React hooks
-│   ├── useSpeechRecognition.ts # Whisper integration
+│   ├── useSpeechRecognition.ts # Web Speech API integration
 │   └── useTickets.ts     # Ticket management hook
 ├── lib/                  # Utility functions
 │   ├── dateUtils.ts      # Date handling
@@ -224,10 +224,11 @@ The AI assistant can help you:
 
 ### Voice Recording Options
 
-**Browser-based (Whisper):**
+**Browser-based (Web Speech API):**
 - Works offline
 - Fast processing
 - Good for quick notes
+- Uses browser's native speech recognition
 
 **AssemblyAI:**
 - Cloud-based processing
@@ -263,7 +264,7 @@ MIT License - feel free to use this project for your own purposes.
 - Built with [Next.js](https://nextjs.org/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - AI powered by [LM Studio](https://lmstudio.ai/)
-- Transcription by [Whisper](https://github.com/openai/whisper) and [AssemblyAI](https://www.assemblyai.com/)
+- Transcription by [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) and [AssemblyAI](https://www.assemblyai.com/)
 - Icons by [Lucide](https://lucide.dev/)
 
 ---
