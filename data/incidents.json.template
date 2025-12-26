@@ -1,0 +1,13 @@
+{
+  "students": [],
+  "incidents": [],
+  "categories": [
+    { "id": "academic", "name": "Academic", "createdAt": "2025-01-01T00:00:00.000Z" },
+    { "id": "behavioral", "name": "Behavioral", "createdAt": "2025-01-01T00:00:00.000Z" },
+    { "id": "sel", "name": "SEL", "createdAt": "2025-01-01T00:00:00.000Z" }
+  ],
+  "settings": {
+    "theme": "light",
+    "lmStudioModel": "llama-3.2-3b"
+  }
+}

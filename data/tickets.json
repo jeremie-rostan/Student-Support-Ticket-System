@@ -1,0 +1,77 @@
+{
+  "students": [
+    {
+      "id": "student-1766711051507",
+      "name": "Jérémie Rostan",
+      "createdAt": "2025-12-26T01:04:11.507Z"
+    }
+  ],
+  "tickets": [
+    {
+      "date": "2025-12-17",
+      "studentIds": [
+        "student-1766711051507"
+      ],
+      "category": "academic",
+      "status": "new",
+      "details": "Jérémie is falling behind in PE due to extensive AI use interfering with exercise.",
+      "notes": [],
+      "id": "ticket-1766711022495",
+      "createdAt": "2025-12-26T01:03:42.495Z",
+      "updatedAt": "2025-12-26T01:04:13.264Z"
+    },
+    {
+      "date": "2025-12-26",
+      "studentIds": [
+        "student-1766711051507"
+      ],
+      "category": "behavioral",
+      "status": "new",
+      "details": "Jérémie refused to do a push-up warm-up, saying he was unable to do even one",
+      "notes": [
+        {
+          "content": "I was supposed to have a conversation with Jeremy today, but he forgot because he was playing around with AI.",
+          "source": "assembly-transcription",
+          "utterances": [
+            {
+              "speaker": "A",
+              "text": "I was supposed to have a conversation with Jeremy today, but he forgot because he was playing around with AI.",
+              "start": 1120,
+              "end": 7200,
+              "confidence": 0.99395144
+            }
+          ],
+          "summary": "- I was supposed to have a conversation with Jeremy today, but he forgot because he was playing around with AI.",
+          "id": "note-1766713071191",
+          "timestamp": "2025-12-26T01:37:51.191Z",
+          "author": "You"
+        }
+      ],
+      "id": "ticket-1766711091309",
+      "createdAt": "2025-12-26T01:04:51.309Z",
+      "updatedAt": "2025-12-26T01:37:54.957Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "academic",
+      "name": "Academic",
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "behavioral",
+      "name": "Behavioral",
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sel",
+      "name": "SEL",
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "lmStudioModel": "llama-3.2-3b",
+    "assemblyAIKey": "5dc797e4c27e47a3b879a8b41b977fbb"
+  }
+}
